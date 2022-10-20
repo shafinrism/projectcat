@@ -1,0 +1,47 @@
+body{
+	width: 100%;
+	height:600px;
+	background-image: url(../images/cat2.jpg);
+	text-align: center;
+
+
+
+}
+img{
+	border-radius: 35%;
+}
+.title{
+	font-size: 56px;
+	color: white;
+	text-transform: uppercase;
+	background-color: green;
+}
+.des{
+	font-size: 20px;
+	color: black;
+}
+.btn{
+	height:50px;
+	width:120px;
+	border:none;
+	border-radius:8px; 
+	color:white;
+	background-color:tomato;
+	text-transform: uppercase; 
+	font-size: 18px;
+	transition: 0.5s;
+
+}
+.btn:hover{
+	background-color: green;
+	cursor: pointer;
+	transform: scale(0.8);
+	transition: 0.5s;
+
+
+}
+.list{
+	color: white;
+	text-align: left;
+	text-transform: uppercase;
+}
